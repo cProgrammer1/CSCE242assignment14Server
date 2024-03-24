@@ -142,7 +142,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
