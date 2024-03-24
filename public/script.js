@@ -12,7 +12,7 @@ const getCrafts = async() =>
     try
     {
         // let response = await fetch("http://localhost:3000/api/crafts");
-        let response = await fetch("https://csce242assignment14server.onrender.com");
+        let response = await fetch("https://csce242assignment14server.onrender.com/api/crafts");
         return await response.json();
 
     }
