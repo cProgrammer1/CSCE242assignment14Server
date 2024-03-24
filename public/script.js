@@ -91,7 +91,7 @@ const showCrafts = async() =>
         if((craft.id == "0"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection0.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -142,7 +142,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
