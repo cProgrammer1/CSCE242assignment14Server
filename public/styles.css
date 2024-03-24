@@ -28,39 +28,29 @@ h1
 
 }
 
-.small-image
+.plus-sign-image
 {
     max-width: 2%;
     margin-left: 30px;
+    
+}
+
+.edit-pencil-image
+{
+    max-width: 3.5%;
+    margin-left: 12px;
+    
+}
+
+.ferris-wheel-image
+{
+    max-width: 90%;
 
 }
 
-.crafts-container
+.expanded-ferris-wheel-image
 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-
-}
-
-.craft-section0,
-.craft-section1,
-.craft-section2,
-.craft-section3
-{
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-
-}
-
-.craft-section0 img,
-.craft-section1 img,
-.craft-section2 img,
-.craft-section3 img
-{
-    margin-top: 8px;
-    vertical-align: middle;
+    max-width: 90%;
 
 }
 
@@ -135,6 +125,38 @@ p a
     display: block;
 
 }
+
+
+.crafts-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+.craft-section0,
+.craft-section1,
+.craft-section2,
+.craft-section3
+{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+
+}
+
+.craft-section0 img,
+.craft-section1 img,
+.craft-section2 img,
+.craft-section3 img
+{
+    margin-top: 8px;
+    vertical-align: middle;
+    padding: 0px;
+
+}
+
 
 
 /* OVERRIDE: FOR LARGER RESOLUTIONS: */

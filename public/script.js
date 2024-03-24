@@ -49,7 +49,7 @@ const showCrafts = async() =>
     craftsDiv.append(pageTitle);
 
     const plusSignImage = document.createElement("img");
-    plusSignImage.classList.add("small-image");
+    plusSignImage.classList.add("plus-sign-image");
     plusSignImage.src = "images/plus_sign_image.png";
     craftsDiv.append(plusSignImage);
 
@@ -104,8 +104,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -158,8 +164,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -212,8 +224,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -266,8 +284,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -320,8 +344,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -374,8 +404,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -428,8 +464,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -485,8 +527,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -539,8 +587,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -593,8 +647,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -647,8 +707,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -701,8 +767,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -755,8 +827,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -812,8 +890,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -866,8 +950,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -920,8 +1010,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -974,8 +1070,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -1028,8 +1130,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -1082,8 +1190,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -1139,8 +1253,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -1193,8 +1313,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -1247,8 +1373,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -1301,8 +1433,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -1342,6 +1480,7 @@ const showCrafts = async() =>
         {
             const craftImage = document.createElement("img");
             craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.classList.add("ferris-wheel-image")
             craftSection3.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1355,8 +1494,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
@@ -1385,7 +1530,7 @@ const showCrafts = async() =>
                 expandedImageSection.innerHTML = "";
 
                 const expandedImage = document.createElement("img");
-                expandedImage.classList.add("expanded-craft-image");
+                expandedImage.classList.add("expanded-craft-image", "expanded-ferris-wheel-image");
                 expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
@@ -1409,8 +1554,14 @@ const showCrafts = async() =>
                 expandedInfoSection.innerHTML = "";
     
                 const expandedCraftNameh3 = document.createElement("h2");
+                expandedCraftNameh3.classList.add("inline");
                 expandedCraftNameh3.innerHTML = craft.name;
                 expandedInfoSection.append(expandedCraftNameh3);
+
+                const pencilImage = document.createElement("img")
+                pencilImage.classList.add("edit-pencil-image");
+                pencilImage.src = "images/edit_pencil_image.png";
+                expandedInfoSection.append(pencilImage);
 
                 const expandedCraftDescriptionP = document.createElement("p");
                 expandedCraftDescriptionP.innerHTML = craft.description;
