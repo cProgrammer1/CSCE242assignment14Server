@@ -151,7 +151,7 @@ const showCrafts = async() =>
         if((craft.id == "4"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection0.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -202,7 +202,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -211,7 +211,7 @@ const showCrafts = async() =>
         if((craft.id == "8"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection0.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -262,7 +262,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -271,7 +271,7 @@ const showCrafts = async() =>
         if((craft.id == "12"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection0.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -322,7 +322,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -331,7 +331,7 @@ const showCrafts = async() =>
         if((craft.id == "16"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection0.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -382,7 +382,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -391,7 +391,7 @@ const showCrafts = async() =>
         if((craft.id == "20"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection0.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -442,7 +442,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -451,7 +451,7 @@ const showCrafts = async() =>
         if((craft.id == "24"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection0.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -502,7 +502,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -514,7 +514,7 @@ const showCrafts = async() =>
         if((craft.id == "1"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection1.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -565,7 +565,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -574,7 +574,7 @@ const showCrafts = async() =>
         if((craft.id == "5"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection1.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -625,7 +625,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -634,7 +634,7 @@ const showCrafts = async() =>
         if((craft.id == "9"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection1.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -685,7 +685,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -694,7 +694,7 @@ const showCrafts = async() =>
         if((craft.id == "13"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection1.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -745,7 +745,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -754,7 +754,7 @@ const showCrafts = async() =>
         if((craft.id == "17"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection1.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -805,7 +805,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -814,7 +814,7 @@ const showCrafts = async() =>
         if((craft.id == "21"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection1.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -865,7 +865,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -877,7 +877,7 @@ const showCrafts = async() =>
         if((craft.id == "2"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection2.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -928,7 +928,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -937,7 +937,7 @@ const showCrafts = async() =>
         if((craft.id == "6"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection2.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -988,7 +988,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -997,7 +997,7 @@ const showCrafts = async() =>
         if((craft.id == "10"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection2.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1048,7 +1048,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1057,7 +1057,7 @@ const showCrafts = async() =>
         if((craft.id == "14"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection2.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1108,7 +1108,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1117,7 +1117,7 @@ const showCrafts = async() =>
         if((craft.id == "18"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection2.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1168,7 +1168,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1177,7 +1177,7 @@ const showCrafts = async() =>
         if((craft.id == "22"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection2.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1228,7 +1228,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1240,7 +1240,7 @@ const showCrafts = async() =>
         if((craft.id == "3"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection3.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1291,7 +1291,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1300,7 +1300,7 @@ const showCrafts = async() =>
         if((craft.id == "7"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection3.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1351,7 +1351,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1360,7 +1360,7 @@ const showCrafts = async() =>
         if((craft.id == "11"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection3.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1411,7 +1411,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1420,7 +1420,7 @@ const showCrafts = async() =>
         if((craft.id == "15"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection3.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1471,7 +1471,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1480,7 +1480,7 @@ const showCrafts = async() =>
         if((craft.id == "19"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftImage.classList.add("ferris-wheel-image")
             craftSection3.append(craftImage);
 
@@ -1532,7 +1532,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image", "expanded-ferris-wheel-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
@@ -1541,7 +1541,7 @@ const showCrafts = async() =>
         if((craft.id == "23"))
         {
             const craftImage = document.createElement("img");
-            craftImage.src = "http://localhost:3000/crafts/" + craft.image;
+            craftImage.src = "crafts/" + craft.image;
             craftSection3.append(craftImage);
 
             craftImage.onclick = (event) =>
@@ -1592,7 +1592,7 @@ const showCrafts = async() =>
 
                 const expandedImage = document.createElement("img");
                 expandedImage.classList.add("expanded-craft-image");
-                expandedImage.src = "http://localhost:3000/crafts/" + craft.image;
+                expandedImage.src = "crafts/" + craft.image;
                 expandedImageSection.append(expandedImage);
     
             };
